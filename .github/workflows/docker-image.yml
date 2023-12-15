@@ -8,7 +8,7 @@ on:
       - main
     paths:
       - 'NestJsDocker/**'
-      - '.github/workflow/main.yaml'
+      - '.github/workflow/docker-image.yml'
 
 env:
   REGISTRY: ${{vars.AWS_ACCOUNT_ID}}.dkr.ecr.${{vars.AWS_REGION}}.amazonaws.com
